@@ -12,6 +12,9 @@ a {
   color: seashell;
   text-decoration: underline;
 }
+a:hover {
+  color: lavender;
+}
 /* header styles */
 nav {
   display: inline-block;
@@ -27,9 +30,7 @@ nav span {
   padding: 0 20px;
   text-align: right;
 }
-nav:hover{
-  color: lavender;
-}
+
 .logo {
   height: 50px;
   padding: 10px 10px;
@@ -51,13 +52,17 @@ nav:hover{
   align-content: space-around;
 }
 
-
+img {
+  height: 200px;
+  width: 300px;
+}
 
 /* footer styles */
 footer {
   text-align: center;
   height: 200px;
 }
+
 .copyright {
   text-align: left;
   padding-left: 20px;
