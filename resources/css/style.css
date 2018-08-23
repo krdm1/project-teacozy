@@ -6,3 +6,17 @@ body {
   opacity: 0.9;
   align-content: center;
 }
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+#menu {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 3;
+}
+.logo {
+  height: 50px;
+  padding: 10px 10px;
+}
