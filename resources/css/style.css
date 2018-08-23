@@ -1,22 +1,64 @@
+/* Universal styles */
 body {
+  margin: 0 auto;
   font-family: Helvetica;
   font-size: 22px;
   color: Seashell;
   background-color: black;
   opacity: 0.9;
-  align-content: center;
+  /*text-align: center;*/
 }
 a {
   color: seashell;
   text-decoration: underline;
 }
-#menu {
+/* header styles */
+nav {
+  display: inline-block;
   height: 69px;
+  width: 100%;
+  background-color: black;
   border-bottom: 1px solid seashell;
   position: fixed;
   z-index: 3;
+  align-items: center;
+}
+nav span {
+  padding: 0 20px;
+  text-align: right;
+}
+nav:hover{
+  color: lavender;
 }
 .logo {
   height: 50px;
   padding: 10px 10px;
+}
+
+/* mission styles */
+#mission {
+  position: relative;
+  background-image: url("./resources/images/mission-background.jpg");
+  background-size: 700px 1200px;
+}
+
+.container-photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+
+
+/* footer styles */
+footer {
+  text-align: center;
+  height: 200px;
+}
+.copyright {
+  text-align: left;
+  padding-left: 20px;
 }
