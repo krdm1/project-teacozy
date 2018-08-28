@@ -8,16 +8,19 @@ body {
   opacity: 0.9;
   /*text-align: center;*/
 }
+
 a {
   color: seashell;
   text-decoration: underline;
 }
+
 a:hover {
   color: lavender;
 }
+
 /* header styles */
 nav {
-  display: inline-block;
+  display: flex;
   height: 69px;
   width: 100%;
   background-color: black;
@@ -38,11 +41,13 @@ nav span {
 
 /* mission styles */
 #mission {
+  display: flex;
   position: relative;
-  background-image: url("./resources/images/mission-background.jpg");
+  background-image: url("../images/mission-background.jpg");
   background-size: 700px 1200px;
 }
 
+/* teas */
 .container-photos {
   display: flex;
   flex-direction: row;
@@ -51,11 +56,34 @@ nav span {
   align-items: center;
   align-content: space-around;
 }
-
+figure {
+  text-align: center;
+}
 img {
   height: 200px;
   width: 300px;
 }
+
+.locs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  background-image: url("../images/locations-background.jpg");
+  height:  
+}
+.title {
+  display: inline-block;
+}
+
+.addresses {
+  margin: 15px 20px;
+  background-color: pink;
+  text-align: center;
+}
+
 
 /* footer styles */
 footer {
